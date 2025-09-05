@@ -9,13 +9,13 @@
   "detail": {
     "contributors": [],
     "diagrams": [
- {
+      {
         "id": 1,
         "title": "Diagrama de flujo de datos de inicio de sesión del usuario  para el sitio web de la biblioteca universitaria",
         "diagramType": "STRIDE",
         "placeholder": "Descripción de nuevo diagrama STRIDE",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
-        "version": "2.2.0",
+        "version": "2.5.0",
         "cells": [
           {
             "position": {
@@ -839,7 +839,7 @@
         "diagramType": "STRIDE",
         "placeholder": "New STRIDE diagram description",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
-        "version": "2.2.0",
+        "version": "2.5.0",
         "cells": [
           {
             "position": {
@@ -863,6 +863,88 @@
             "visible": true,
             "shape": "actor",
             "zIndex": 1,
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "f5176f91-a3e0-4986-b5bb-9ab50fc3e946"
+                },
+                {
+                  "group": "right",
+                  "id": "61942905-d279-447b-a428-25ed6b1a7fab"
+                },
+                {
+                  "group": "bottom",
+                  "id": "bb36899b-d3cd-43e8-bb87-ea2db62f0899"
+                },
+                {
+                  "group": "left",
+                  "id": "bb879b17-90b0-4460-8bc5-0568e0a9d310"
+                }
+              ]
+            },
             "id": "5ad6ff53-9dc0-4265-b89a-e7ded9ec8381",
             "data": {
               "type": "tm.Actor",
@@ -915,6 +997,88 @@
             "visible": true,
             "shape": "actor",
             "zIndex": 2,
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "70b627a1-c9ad-437f-bebe-1bb2736993d3"
+                },
+                {
+                  "group": "right",
+                  "id": "aca1cd28-fbd4-4887-bbaa-d3a58a334724"
+                },
+                {
+                  "group": "bottom",
+                  "id": "9f06f837-881c-46c6-afe6-298b8b6fd258"
+                },
+                {
+                  "group": "left",
+                  "id": "19ea34d3-5733-4d6d-8649-84258b0071e7"
+                }
+              ]
+            },
             "id": "39f8d39a-9bf6-4711-8bb5-a3d6538b2590",
             "data": {
               "type": "tm.Actor",
@@ -967,6 +1131,88 @@
             "visible": true,
             "shape": "process",
             "zIndex": 3,
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "11efa26c-85cb-458b-9305-daf2fd4bcfd3"
+                },
+                {
+                  "group": "right",
+                  "id": "0b5f0ce5-a39d-48c5-9068-092b48f6c7e7"
+                },
+                {
+                  "group": "bottom",
+                  "id": "5ac05388-3933-4bfc-8123-7652d9f46f2b"
+                },
+                {
+                  "group": "left",
+                  "id": "b703b86b-c819-4ca7-82e6-f417abe6d508"
+                }
+              ]
+            },
             "id": "10708306-b6f9-46ee-b707-5d3d9c0152c0",
             "data": {
               "type": "tm.Process",
@@ -1031,6 +1277,88 @@
             "visible": true,
             "shape": "store",
             "zIndex": 4,
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "2aa59063-fbdc-4eaf-9c1d-dfe23d666d19"
+                },
+                {
+                  "group": "right",
+                  "id": "d0eb912b-0b06-49e5-b427-8fa89f420f57"
+                },
+                {
+                  "group": "bottom",
+                  "id": "08aa234c-eedf-4adf-8d03-d4e6f4e4f83a"
+                },
+                {
+                  "group": "left",
+                  "id": "b1b187fd-02d7-495d-9b16-c142c7132e57"
+                }
+              ]
+            },
             "id": "c9467cd5-3cee-4445-a048-6284b212524c",
             "data": {
               "type": "tm.Store",
@@ -1107,6 +1435,88 @@
             "visible": true,
             "shape": "store",
             "zIndex": 5,
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "6cc469c8-c563-4fe3-9a80-ebd0a4395317"
+                },
+                {
+                  "group": "right",
+                  "id": "e62eb0db-606d-42d8-992d-4710af036bc0"
+                },
+                {
+                  "group": "bottom",
+                  "id": "28732e8c-940a-46d6-9e49-b9e0f585facc"
+                },
+                {
+                  "group": "left",
+                  "id": "31736b48-dc6e-43a9-b3e9-18b457f29706"
+                }
+              ]
+            },
             "id": "11400147-c5e1-4d87-ae14-9c52799b2fa8",
             "data": {
               "type": "tm.Store",
@@ -1168,6 +1578,88 @@
             "visible": true,
             "shape": "store",
             "zIndex": 6,
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "62d3c09e-a54e-4c33-9f8d-f039cf0d8821"
+                },
+                {
+                  "group": "right",
+                  "id": "ab8bb422-204b-4a16-bad3-ded1ad3af933"
+                },
+                {
+                  "group": "bottom",
+                  "id": "60a1a851-0b6a-48b3-87b3-bea578b68f37"
+                },
+                {
+                  "group": "left",
+                  "id": "0dd90520-8937-47e1-a8d7-02aa9516636a"
+                }
+              ]
+            },
             "id": "5972f16e-24d2-4818-9f89-6c988dfc1852",
             "data": {
               "type": "tm.Store",
@@ -1212,55 +1704,15 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
-              "name": "usuario/web server límite",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
-            },
-            "id": "baf9f015-e212-4d7c-84cf-75fe49fa684e",
-            "labels": [
-              "usuario/web server límite"
-            ],
-            "source": {
-              "x": 270,
-              "y": 130
-            },
-            "target": {
-              "x": 1090,
-              "y": 130
-            },
-            "vertices": [
-              {
-                "x": 310,
-                "y": 230
-              },
-              {
-                "x": 630,
-                "y": 230
-              },
-              {
-                "x": 980,
-                "y": 220
-              }
-            ]
-          },
-          {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
               "name": "Límite web server/Db",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false
             },
-            "id": "19a7c9b4-fe46-468c-bb3a-2f770a32cf82",
             "labels": [
               "Límite web server/Db"
             ],
+            "id": "19a7c9b4-fe46-468c-bb3a-2f770a32cf82",
             "source": {
               "x": 980,
               "y": 350
@@ -1299,6 +1751,7 @@
               "name": "Páginas",
               "description": "Páginas web leídas desde el disco",
               "outOfScope": true,
+              "isTrustBoundary": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "isBidirectional": false,
@@ -1307,10 +1760,10 @@
               "protocol": "",
               "threats": []
             },
-            "id": "550cb0c3-be62-4643-8e08-7951c8cfaacf",
             "labels": [
               "Páginas"
             ],
+            "id": "550cb0c3-be62-4643-8e08-7951c8cfaacf",
             "source": {
               "cell": "5972f16e-24d2-4818-9f89-6c988dfc1852"
             },
@@ -1347,6 +1800,7 @@
               "name": "Lee web\napp config",
               "description": "Archivo físico de configuración \nleído desde el disco",
               "outOfScope": true,
+              "isTrustBoundary": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "isBidirectional": false,
@@ -1355,10 +1809,10 @@
               "protocol": "",
               "threats": []
             },
-            "id": "cde444ab-3a6e-470f-b81c-3810aaf2bcc3",
             "labels": [
               "Lee web\napp config"
             ],
+            "id": "cde444ab-3a6e-470f-b81c-3810aaf2bcc3",
             "source": {
               "cell": "11400147-c5e1-4d87-ae14-9c52799b2fa8"
             },
@@ -1396,6 +1850,7 @@
               "name": "Web Request",
               "description": "Respuestas recibidas por la \naplicación hacia los usuarios.",
               "outOfScope": false,
+              "isTrustBoundary": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": true,
               "isBidirectional": false,
@@ -1423,10 +1878,10 @@
                 "denialOfService": 0
               }
             },
-            "id": "8f16b6b8-e7e3-479a-96af-4e0607bfc2f4",
             "labels": [
               "Web Request"
             ],
+            "id": "8f16b6b8-e7e3-479a-96af-4e0607bfc2f4",
             "source": {
               "cell": "5ad6ff53-9dc0-4265-b89a-e7ded9ec8381"
             },
@@ -1465,6 +1920,7 @@
               "name": "Web Response",
               "description": "Respuestas enviadas por la \naplicación hacia los usuarios. ",
               "outOfScope": false,
+              "isTrustBoundary": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": true,
               "isBidirectional": false,
@@ -1492,10 +1948,10 @@
                 "denialOfService": 0
               }
             },
-            "id": "63f81787-21f9-4c4c-9a79-d846c4ff0292",
             "labels": [
               "Web Response"
             ],
+            "id": "63f81787-21f9-4c4c-9a79-d846c4ff0292",
             "source": {
               "cell": "10708306-b6f9-46ee-b707-5d3d9c0152c0"
             },
@@ -1533,6 +1989,7 @@
               "name": "Web Request",
               "description": "Respuestas recibidas por la \naplicación hacia los bibliotecarios",
               "outOfScope": false,
+              "isTrustBoundary": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": true,
               "isBidirectional": false,
@@ -1560,10 +2017,10 @@
                 "denialOfService": 0
               }
             },
-            "id": "f6baf1f6-328e-44b2-afba-9764ff20f06e",
             "labels": [
               "Web Request"
             ],
+            "id": "f6baf1f6-328e-44b2-afba-9764ff20f06e",
             "source": {
               "x": 830,
               "y": 210
@@ -1602,6 +2059,7 @@
               "name": "Web Response",
               "description": "Respuestas enviadas por la \naplicación hacia los bibliotecarios.",
               "outOfScope": false,
+              "isTrustBoundary": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": true,
               "isBidirectional": false,
@@ -1629,10 +2087,10 @@
                 "denialOfService": 0
               }
             },
-            "id": "25cc60ac-74ec-4c22-9d8c-b2aeed644221",
             "labels": [
               "Web Response"
             ],
+            "id": "25cc60ac-74ec-4c22-9d8c-b2aeed644221",
             "source": {
               "cell": "10708306-b6f9-46ee-b707-5d3d9c0152c0"
             },
@@ -1674,6 +2132,7 @@
               "name": "Resultados Web App Query",
               "description": "Datos recuperados desde la base de \ndatos. ",
               "outOfScope": false,
+              "isTrustBoundary": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "isBidirectional": false,
@@ -1701,10 +2160,10 @@
                 "denialOfService": 0
               }
             },
-            "id": "48cefa60-4989-4394-90a1-7022de970cc8",
             "labels": [
               "Resultados Web App Query"
             ],
+            "id": "48cefa60-4989-4394-90a1-7022de970cc8",
             "source": {
               "cell": "c9467cd5-3cee-4445-a048-6284b212524c"
             },
@@ -1741,6 +2200,7 @@
               "name": "Queries",
               "description": "Instrucciones de SQL enviadas \nhacia la base de datos. ",
               "outOfScope": false,
+              "isTrustBoundary": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "isBidirectional": false,
@@ -1768,10 +2228,10 @@
                 "denialOfService": 0
               }
             },
-            "id": "8c1ba13c-d5c4-4aa8-818e-eeaafe85f0d6",
             "labels": [
               "Queries"
             ],
+            "id": "8c1ba13c-d5c4-4aa8-818e-eeaafe85f0d6",
             "source": {
               "cell": "10708306-b6f9-46ee-b707-5d3d9c0152c0"
             },
@@ -1782,6 +2242,46 @@
               {
                 "x": 760,
                 "y": 510
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "usuario/web server límite",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "usuario/web server límite"
+            ],
+            "id": "baf9f015-e212-4d7c-84cf-75fe49fa684e",
+            "source": {
+              "x": 270,
+              "y": 130
+            },
+            "target": {
+              "x": 1040,
+              "y": 130
+            },
+            "vertices": [
+              {
+                "x": 310,
+                "y": 230
+              },
+              {
+                "x": 630,
+                "y": 230
+              },
+              {
+                "x": 980,
+                "y": 220
               }
             ]
           }
